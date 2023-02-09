@@ -24,3 +24,16 @@ function theme_features() {
 }
 
 add_action('after_setup_theme', 'theme_features');
+
+// Arcive page titles
+function archive_page_titles() {
+  // Calls the archive "Category"
+  if (is_category()) {
+    single_cat_title();
+  }
+  // Calls the archive "Author Name"
+  if (is_author()) {
+    echo 'Post by'; the_author();
+  }
+}
+archive_page_titles();
