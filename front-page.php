@@ -41,8 +41,10 @@
       </div>
 
       <!--
-        This area is for the blog list. Currently there is no feature image created but
-        will be added at a later date.
+      /* __________________________________________________________________________ */
+        This area is for the blog list. Currently there is no feature image
+        created but will be added at a later date.
+      /* __________________________________________________________________________ */
       -->
       <div class="full-width-split__two">
         <div class="full-width-split__inner">
